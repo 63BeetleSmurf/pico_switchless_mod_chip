@@ -1,6 +1,7 @@
 # Pico Switchless Mod Chip
 A Raspberry Pi Pico based switchless mod chip that can be easily customised for a number of uses.
-# Samples
+Using a consoles reset button and LED, any number of modes can be cycled through easily. Each mode will set any number of pins to a specified value.
+# Examples
 ## SEGA Mega Drive Switchless Region Mod
 ```
 # Should the console be reset after mode change?
