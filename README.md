@@ -13,8 +13,10 @@ Eamples below show how to setup the code to suite different functions for differ
 5. Pico flashes LED to show what mode has been applied
 ## Changing Mode
 1. Hold reset button for 1 second
-2. Pico will start to cycle though each mod flashing the LED
-3. Let go of the reset button and the pico will apply the mode and reset the console if needed
+2. Pico will start to cycle though each mode flashing the LED
+3. Let go of the reset button before it flashes for next mode (you can let go while flashing)
+4. The pico will apply the selected mode
+5. Pico will reset the console if specified to do so
 ## Normal Reset
 Pressing the reset button normally will reset the console as long as you let go of it within 1 second
 ## LED Flashes
