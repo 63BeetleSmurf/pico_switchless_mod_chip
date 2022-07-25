@@ -21,37 +21,20 @@ MODES = [
     [1, 0], # EU - Language = 1, Region = 0
     ]
 ```
-## SEGA Master System Switchless Region Mod ##
-```
-# Should the console be reset after mode change?
-RESET_ON_MODE_CHANGE = True
-
-# List of ouput pins
-OUTPUT_PINS = [
-    Pin(14, Pin.OUT), # Region
-    ]
-
-# List of modes
-# - Each entry is a list of vaules to set output pins to
-MODES = [
-    [0], # NTSC - Region = 0
-    [1], # PAL  - Region = 1
-    ]
-```
-## Nintendo 64 N64RGB Switchless De-Blur
+## SEGA Master System Switchless Region Mod / Nintendo 64 N64RGB Switchless De-Blur
 ```
 # Should the console be reset after mode change?
 RESET_ON_MODE_CHANGE = False
 
 # List of ouput pins
 OUTPUT_PINS = [
-    Pin(14, Pin.OUT), # N64RGB De-blur
+    Pin(14, Pin.OUT), # Region / N64RGB De-blur
     ]
 
 # List of modes
 # - Each entry is a list of vaules to set output pins to
 MODES = [
-    [0], # On
-    [1], # Off
+    [0], # NTSC - Region = 0 / De-blur On
+    [1], # PAL  - Region = 1 / De-blur Off 
     ]
 ```
